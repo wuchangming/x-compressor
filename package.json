@@ -1,0 +1,42 @@
+{
+  "name": "x-compressor",
+  "version": "0.0.1",
+  "description": "Devtool for auto minify webpage",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --config jest.config.json",
+    "build": "rm -R -f lib && babel src -d lib",
+    "dev": "rm -R -f lib && babel -w src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuchangming/minifypage.git"
+  },
+  "keywords": [
+    "minify"
+  ],
+  "author": "wuchangming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wuchangming/minifypage/issues"
+  },
+  "homepage": "https://github.com/wuchangming/minifypage#readme",
+  "dependencies": {
+    "clean-css": "^3.4.19",
+    "colors": "^1.1.2",
+    "glob": "^7.0.5",
+    "htmlhint": "^0.9.13",
+    "htmlparser2": "^3.9.1",
+    "uglify-js": "^2.7.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-preset-es2015": "^6.13.2",
+    "jest": "^15.1.1"
+  },
+  "files": [
+    "lib"
+  ]
+}

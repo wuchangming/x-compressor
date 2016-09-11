@@ -1,2 +1,4 @@
 # x-compressor
-front end compressor for html,js,css 
+A front-end compressor  
+
+[![Build Status](https://travis-ci.org/wuchangming/x-compressor.svg?branch=master)](https://travis-ci.org/wuchangming/x-compressor)

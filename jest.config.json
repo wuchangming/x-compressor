@@ -1,0 +1,5 @@
+{
+    "testPathIgnorePatterns": [
+        "/__tests__/sources/"
+    ]
+}
